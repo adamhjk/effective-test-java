@@ -1,8 +1,8 @@
 require 'rubygems'
 require 'rake'
 
-PACKAGE_NAME = "effective-test-java"
-INSTALL_DIR = "/srv/effective-test-java"
+PACKAGE_NAME = "dbapp"
+INSTALL_DIR = "/srv/dbapp"
 TOP_DIR = File.expand_path(File.join(File.dirname(__FILE__)))
 BUILD_DIR = File.expand_path(File.join(File.dirname(__FILE__), "build"))
 SRC_DIR = File.expand_path(File.join(File.dirname(__FILE__), "src"))
