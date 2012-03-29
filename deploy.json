@@ -2,7 +2,7 @@
   "conditions": { 
     "by fqdn": { 
       "attribute": [ "fqdn" ],
-      "query": "recipe:dbapp AND fqdn:*" 
+      "query": "role:dbapp AND fqdn:*" 
     } 
   }, 
   "random_wait": 10,
