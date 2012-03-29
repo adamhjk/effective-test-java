@@ -1,0 +1,11 @@
+{ 
+  "conditions": { 
+    "by fqdn": { 
+      "attribute": [ "fqdn" ],
+      "query": "recipe:dbapp AND fqdn:*" 
+    } 
+  }, 
+  "random_wait": 10,
+  "retry_count": 10, 
+  "operator":"or"
+}
