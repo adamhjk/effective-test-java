@@ -6,6 +6,6 @@
     } 
   }, 
   "random_wait": 10,
-  "retry_count": 10, 
+  "retry_count": 0, 
   "operator":"or"
 }
