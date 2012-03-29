@@ -1,8 +1,8 @@
 { 
   "conditions": { 
     "by fqdn": { 
-      "attribute": [ "fqdn" ],
-      "query": "role:dbapp AND fqdn:*" 
+      "attribute": [ "dc" ],
+      "query": "role:dbapp AND dc:*" 
     } 
   }, 
   "random_wait": 10,
